@@ -211,3 +211,7 @@
 ## v1.0.0 - 2021-07-27
 ### Added
 - First release, please find details from `README.md`
+
+## v1.1.0 - 2023-09-05
+### Added
+- `GET /sapi/v1/convert/exchangeInfo` to find the exchange info between two assets
