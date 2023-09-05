@@ -50,8 +50,7 @@ const Convert = (superclass) =>
 
       return this.signRequest(
         'GET',
-        `/sapi/v1/convert/exchangeInfo?fromAsset=${fromAsset}&toAsset=${toAsset}`,
-        Object.assign(options)
+        `/sapi/v1/convert/exchangeInfo?fromAsset=${fromAsset}&toAsset=${toAsset}`
       )
     }
   }
